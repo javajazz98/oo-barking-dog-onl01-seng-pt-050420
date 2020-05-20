@@ -10,5 +10,7 @@ end
 
 elle=Dog.new
 elle.name= "Elle"
+
 elle.bark
 woof! 
+# => nil
