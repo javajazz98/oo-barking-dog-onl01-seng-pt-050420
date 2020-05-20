@@ -1,7 +1,8 @@
-# Your code goes here!
 elle = Dog.new
-elle.name = "elle"
-elle.name
-elle.bark
-Woof!
+fido.name = "elle"
  
+elle.name
+# => "Fido"
+ 
+elle.bark
+woof!
