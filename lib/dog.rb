@@ -10,7 +10,5 @@ end
 
 elle=Dog.new
 elle.name= "Elle"
-Puts elle.name
-
 elle.bark
 woof! 
