@@ -1,16 +1,17 @@
-class Dog 
+class Dog
   def name=(dogs_name)
-    @this_dogs_name = dogs_name
-  end
+    @name = dogs_name
+  end 
+
+  def name
+    @name
+  end 
   
-def name
-  @this_dogs_name
-  end
-end
+end 
 
-elle=Dog.new
-elle.name= "Elle"
-
-elle.bark
-woof! 
-# => nil
+class Dog
+  def bark
+    puts "woof!"
+  end 
+  
+end 
